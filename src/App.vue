@@ -1,13 +1,13 @@
 <template>
   <div id="app">
-    <div>
+    <div id="menu">
       <ul>
         <li v-on:click="selectTab('Home')"><a>Home</a></li>
         <li v-on:click="selectTab('Work')"><a>Work</a></li>
         <li v-on:click="selectTab('Contact')"><a>Contact</a></li>
       </ul>
-      <pages :selection="selection"></pages>
     </div>
+    <pages :selection="selection"></pages>
   </div>
 </template>
 
@@ -38,6 +38,15 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     color: #2c3e50;
-    height: 100%;
+    min-height: 100%;
+  }
+  #menu, ul {
+    display: flex;
+  }
+  #menu {
+    justify-content: center;
+  }
+  ul {
+    justify-content: space-around;
   }
 </style>
