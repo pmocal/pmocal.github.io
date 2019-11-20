@@ -16,10 +16,11 @@
 
 <script>
 	export default {
-		name: "TabContent",
+		name: "Pages",
 		props: ['selection']
 	}
 </script>
 
 <style scoped>
+
 </style>
