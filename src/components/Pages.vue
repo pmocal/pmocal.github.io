@@ -8,7 +8,9 @@
 			<h2> Portfolio </h2>
 			<a href="https://www.github.com/pmocal"> My Github </a>
 			<h2> Resume </h2>
-			<a href="./ParthivMohanResumeWithoutAddress.pdf" type="application/pdf" target="_blank">Link</a>
+			<a href="./ParthivMohanResumeWithoutAddress.pdf" target="_blank">Link</a>
+			<h2> LinkedIn </h2>
+			<a href="https://www.linkedin.com/in/parthivmohan">Link</a>
 		</div>
 		<div v-else-if="selection == 'Home'">
 			<h1> Welcome to Parthiv Mohan's website </h1>
