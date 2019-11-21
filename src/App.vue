@@ -7,7 +7,7 @@
 				<li v-on:click="selectTab('Contact')"><a>Contact</a></li>
 			</ul>
 		</div>
-		<pages id="content" :selection="selection"></pages>
+		<pages id="content" :selection="selection"/>
 	</div>
 </template>
 
